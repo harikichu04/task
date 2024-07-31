@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //*********************CREATION AND INTIALIZATION*****************a
+   var arr2 = [1,7,8,3];
+        document.write("CREATION AND INTIALIZATION"+ "<br>");
+        console.log(arr2+ "<br>");
+        console.log(arr2.length+ "<br>");
+        console.log("element in 0 index is "+arr2[0]);
+        console.log("element in 1 index is "+arr2[1]);
+        document.write("ARR1:"+arr2+ "<br>");
+        document.write("ARR1 LENGTH:"+arr2.length+ "<br>");
+        document.write("element in 0 index is "+arr2[0]+ "<br>");
+        document.write("element in 1 index is "+arr2[1]+ "<br>"+ "<br>");
+    //*********************MAX AND MIN OF ARRAY*****************
+    let arr=[142,541,32,83,35,17,89,43];
+    document.write("MAX AND MIN"+ "<br>");
+ console.log(Math.max(...arr) + "<br>");
+ console.log(Math.min(...arr) + "<br>");
+ document.write(Math.max(...arr) + "<br>");
+ document.write(Math.min(...arr) + "<br>"+ "<br>");
+//*********************MERGING************************</br></br>
+   let arr1=[2,3,4,];
+   let arr3=[,5,7,8];
+   document.write("MERGING ELEMENTS"+"<BR>");
+   merge=arr1+arr3;
+   console.log(merge);
+   document.write(merge+"<BR>");
+// ********************ARRAY REVERSING***************
+let letters = ["A", "B", "C", "D"];
+letters.reverse();
+console.log(letters); // Output: ["D", "C", "B", "A"]
+// ********************* Mapping to an array of objects****************
+let names = ["Alice", "Bob", "Charlie"];
+let nameObjects = names.map((name, index) => ({ id: index, name: name }));
+console.log(nameObjects);
+// Output: [{ id: 0, name: "Alice" }, { id: 1, name: "Bob" }, { id: 2, name: "Charlie" }]
+// ********************Checking if the array ELEMENTS***************
+// Array of fruits
+let fruits = ["Apple", "Banana", "Mango"];
+let hasBanana = fruits.includes("Banana");
+console.log(hasBanana); // Output: true
+let hasOrange = fruits.includes("Orange");
+console.log(hasOrange); // Output: false
+
+
+   
+
+   
+</script>
+    
+</body>
+</html>
